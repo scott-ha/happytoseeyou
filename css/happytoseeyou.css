@@ -46,3 +46,12 @@ body {
   letter-spacing: -0.58px;
   color: #000000;
 }
+
+.Mask {
+  width: 1920px;
+  height: 130px;
+  margin: 99px 0 100px;
+  padding: 0 461px 0 459px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #ffedf2 26%, #fac9d6 115%);
+}
