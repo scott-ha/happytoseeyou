@@ -48,10 +48,8 @@ body {
 }
 
 .section-service {
-  width: 1920px;
+  width: 100%;
   height: 130px;
   margin: 99px 0 100px;
-  padding: 0 461px 0 459px;
-  border-radius: 10px;
   background-image: linear-gradient(to right, #ffedf2 26%, #fac9d6 115%);
 }
