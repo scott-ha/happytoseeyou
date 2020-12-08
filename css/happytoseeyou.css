@@ -26,3 +26,11 @@ body {
   height: 19px;
   object-fit: contain;
 }
+
+.BANNER_1 {
+  width: 1000px;
+  height: 450px;
+  margin: 0 0 0 2px;
+  padding: 23px 22px 12px 479px;
+  object-fit: contain;
+}
