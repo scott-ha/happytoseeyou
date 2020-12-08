@@ -20,3 +20,9 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.LOGOBlack {
+  width: 130px;
+  height: 19px;
+  object-fit: contain;
+}
