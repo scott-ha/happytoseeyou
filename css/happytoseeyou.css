@@ -34,3 +34,15 @@ body {
   padding: 23px 22px 12px 479px;
   object-fit: contain;
 }
+
+.nav-black {
+  margin: 1px 16px 2px 30px;
+  font-family: NanumSquareB;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.58px;
+  color: #000000;
+}
