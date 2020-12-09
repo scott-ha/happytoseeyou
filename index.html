@@ -15,6 +15,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/happytoseeyou.css" rel="stylesheet">
+  <script src="js/includeHTML.js"></script>
 
 </head>
 
@@ -66,7 +67,7 @@
       </div>
     </div>
   </nav> -->
-  <link rel="import" href="nav.html">
+  <body>에 <div include-html="nav.html"></div>
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -442,11 +443,12 @@
       <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
     </div>
   </footer> -->
-  <link rel="import" href="footer.html">
+  <div include-html="footer.html"></div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>includeHTML();</script>
 
 </body>
 
