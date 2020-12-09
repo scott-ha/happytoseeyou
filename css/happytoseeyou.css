@@ -3,6 +3,9 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
+
+ @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
 body {
   padding-top: 56px;
 }
@@ -15,6 +18,18 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.Category-text {
+  font-family: 'NanumSquareB', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.17px;
+  text-align: center;
+  color: #111111;
 }
 
 .portfolio-item {
@@ -35,15 +50,8 @@ body {
   object-fit: contain;
 }
 
-.nav-black {
-  margin: 1px 16px 2px 30px;
+.nav-link {
   font-family: NanumSquareB;
-  font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.58px;
   color: #000000;
 }
 
@@ -69,10 +77,50 @@ body {
 .footer-hts {
   width: 100%;
   height: 366px;
-  position: absolute;
-  bottom: 0;
   background: #fafafa;
   text-align: center;
   color: #000000;
+}
 
+.tab-contents {
+  overflow: hidden;
+  border: 0px;
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-color: #e2e3eb;
+  border-bottom-width: 1px
+}
+
+/* Style the buttons inside the tab */
+.tab-contests button {
+  background-color: inherit;
+  margin-bottom: 1px;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab-contests button:hover {
+  color: #e4a8b0;
+}
+
+/* Create an active/current tablink class */
+.tab-contests button.active {
+  color: #e4a8b0;
+  border-bottom-style: solid;
+  border-bottom-color: #e4a8b0;
+  border-bottom-width: 1px
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 0px;
+  border-top: none;
 }
