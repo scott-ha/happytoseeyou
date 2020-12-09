@@ -53,3 +53,15 @@ body {
   margin: 99px 0 100px;
   background-image: linear-gradient(to right, #ffedf2 26%, #fac9d6 115%);
 }
+
+.btn-hts {
+  color: #fff;
+  background-color: #fac9d6;
+  border-color: #fac9d6
+}
+
+.btn-hts:hover {
+  color: #fff;
+  background-color: #fac9d6;
+  border-color: #fac9d6
+}
