@@ -269,7 +269,7 @@ body {
 }
 
 .footer-agree {
- margin: 19px 206px 82px 0;
+ margin: 19px 206px 50px 0;
  font-family: NanumGothic;
  font-size: 12px;
  font-weight: bold;
@@ -280,8 +280,14 @@ body {
  color: #959595;
 }
 
+.img-footer {
+  right: 100px;
+  top: 3950px;
+  position: absolute;
+}
+
 .img-mask {
-  top: 300px;
+  top: 1000px;
   left: 1655px;
   position: fixed;
 }
