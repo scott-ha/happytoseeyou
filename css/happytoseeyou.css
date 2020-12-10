@@ -3,8 +3,7 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-
- @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 
 body {
   padding-top: 56px;
@@ -33,6 +32,14 @@ body {
   color: #111111;
 }
 
+.nav-border {
+  overflow: hidden;
+  border: 0px;
+  border-bottom-style: solid;
+  border-bottom-color: #e7e7e7;
+  border-bottom-width: 1px
+}
+
 .title-text-1 {
   margin-right: 9px;
   font-family: Roboto;
@@ -57,7 +64,10 @@ body {
 }
 
 .portfolio-item {
-  margin-bottom: 30px;
+  margin: 29px 15px 0 24px;
+  padding: 0 0 12px;
+  border-radius: 12.9px;
+  border: solid 1.6px #e2e3eb;
 }
 
 .LOGOBlack {
@@ -96,6 +106,32 @@ body {
   color: #fff;
   background-color: #fac9d6;
   border-color: #fac9d6
+}
+
+.vod-title {
+  width: 155px;
+  height: 18px;
+  font-family: NanumSquareB;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.27px;
+  color: #000000;
+}
+
+.vod-contents {
+  width: 193px;
+  height: 16px;
+  font-family: NanumSquareR;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.31px;
+  color: #000000;
 }
 
 .footer-hts {
@@ -147,4 +183,11 @@ body {
   padding: 6px 12px;
   border: 0px;
   border-top: none;
+}
+
+.chat {
+  height: 620px;
+  margin: 0 0 1px;
+  padding: 0 0 150px;
+  border: solid 1px #e0e1e7;
 }

@@ -4796,7 +4796,8 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .card-img, .card-img-bottom, .card-img-top {
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  width: 100%
+  width: 100%;
+  object-fit: contain;
 }
 
 .card-img, .card-img-top {
@@ -8359,6 +8360,10 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 
 .mt-4-3 {
   margin-top: 2.688rem !important
+}
+
+.mt-5 {
+  margin-top: 3.75rem !important
 }
 
 
