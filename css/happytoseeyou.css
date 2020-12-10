@@ -149,6 +149,31 @@ body {
   color: #332a2f
 }
 
+.teacher-title {
+  margin-top: 16px;
+  text-align: center;
+  font-family: NanumSquareEB;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.27px;
+  color: #332a2f
+}
+
+.teacher-text-extra {
+  margin-top: 8px;
+  text-align: center;
+  font-family: NanumSquareR;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.23px;
+}
+
 .img-thum {
   object-fit: fill;
 }
