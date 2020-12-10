@@ -173,7 +173,8 @@ body {
 }
 
 .img-thum {
-  object-fit: fill;
+  width: 100%;
+  object-fit: contain;
 }
 
 .img-live {
