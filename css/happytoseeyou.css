@@ -11,7 +11,8 @@ body {
 
 .carousel-item {
   height: 450px;
-  /* min-height: 300px; */
+  min-height: 300px;
+  width: 100%
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -89,10 +90,15 @@ body {
   color: #000000;
 }
 
+.section-banner {
+  width: 100%;
+  height: 130px;
+  background-image: linear-gradient(to right, #ffedf2 26%, #fac9d6 115%);
+}
+
 .section-service {
   width: 100%;
   height: 130px;
-  margin: 99px 0 100px;
   background-image: linear-gradient(to right, #ffedf2 26%, #fac9d6 115%);
 }
 
