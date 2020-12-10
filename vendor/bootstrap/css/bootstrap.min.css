@@ -4696,6 +4696,19 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   /* border-radius: .25rem */
 }
 
+.card-online {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  border-radius: 12.9px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+}
+
 .card>hr {
   margin-right: 0;
   margin-left: 0
