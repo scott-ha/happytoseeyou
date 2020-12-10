@@ -281,8 +281,8 @@ body {
 }
 
 .img-mask {
-  margin-top: 300px;
-  margin-left: 1655px;
+  top: 300px;
+  left: 1655px;
   position: fixed;
 }
 
