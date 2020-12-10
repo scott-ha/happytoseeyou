@@ -4208,9 +4208,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .nav-tabs .nav-item {
-  padding-top: .3125rem;
-  padding-bottom: .3125rem;
-  /* margin-bottom: -1px */
+  margin-bottom: -1px
 }
 
 .nav-tabs .nav-link {
