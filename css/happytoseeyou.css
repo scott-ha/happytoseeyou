@@ -20,6 +20,10 @@ body {
   background-size: cover;
 }
 
+.carousel-background {
+  width: 100%;
+}
+
 .Category-text {
   font-family: 'NanumSquareB', sans-serif;
   font-size: 14px;
