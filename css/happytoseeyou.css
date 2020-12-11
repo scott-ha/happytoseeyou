@@ -173,6 +173,10 @@ body {
   line-height: normal;
   letter-spacing: -0.23px;
 }
+.hr-live {
+  width: 93%;
+  margin: 8px 0 0;
+}
 
 .img-thum {
   width: 100%;
