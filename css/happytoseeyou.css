@@ -125,9 +125,11 @@ body {
 }
 
 .btn-hts {
-  color: #fff;
-  background-color: #fac9d6;
-  border-color: #fac9d6
+  width: 70px;
+  height: 30px;
+  /* padding: 8px 23.5px 9px 24.5px; */
+  border-radius: 2px;
+  background-color: #e4a8b0;
 }
 
 .btn-hts:hover {
