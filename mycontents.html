@@ -15,6 +15,7 @@
   <!-- Custom styles for this template -->
   <link href="css/happytoseeyou.css" rel="stylesheet">
   <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 </head>
 
 <body>
@@ -27,7 +28,6 @@
       <div class="row h-100 align-items-center justify-content-center text-center" style="margin-top:20px;">
         <div class="col-lg-8">
           <div class="container">
-
             <div class="tab-contents">
               <button class="tablinks active" onclick="openmenu(event, 'live')">LIVE 내역</button>
               <button class="tablinks" onclick="openmenu(event, 'online')">온라인 내역</button>
@@ -36,15 +36,44 @@
           </div>
 
           <div id="live" class="tabcontent active">
-            <div class="row h-100 align-items-center justify-content-center text-center">
-              <div class="col-lg-8 align-self-baseline">
-                <div class="tab">
-                  <button class="tablinks" onclick="openmenu(event, 'live')">LIVE 내역</button>
-                  <button class="tablinks" onclick="openmenu(event, 'online')">온라인 내역</button>
-                  <button class="tablinks" onclick="openmenu(event, 'offline')">오프라인 내역</button>
+            <div class="container mt-4">
+              <div class="row">
+
+                <div class="col-lg-3">
+                </div>
+                <div class="row text-center">
+                  <span class="card-title-0">전체목록</span>
+                  <span class="card-title-0">LIVE 예정</span>
+                  <span class="card-title-0" style="color:#e4a8b0">LIVE 진행중</span>
+                  <span class="card-title-0">종료된 LIVE</span>
+                  <span class="card-title-0">취소내역</span>
                 </div>
               </div>
             </div>
+            <div class="container mt-4">
+              <div class="row">
+                <div class="col-lg-1">
+                  <button class="live-round">LIVE 진행중</button>
+                </div>
+                <div class="col-lg-6">
+                  <p class="content-title">아나운서한테 배우는 스피치 트레이닝</p>
+                  <p class="content-text11">이슬아 선생님</p>
+                  <p class="content-text13">11월 19일(토) 13:00 ~ 14:00</p>
+
+                </div>
+                <div class="col-lg-4">
+                  <a href="class_live.html"><button class="btn-class">LIVE 강의실 입장 <i class="far fa-play-circle" style="margin-left:20px;"></i></button></a>
+                </div>
+              </div>
+            </div>
+            <div class="container mt-4">
+              <div class="row">
+                <div class="col-lg-2">
+                  <p class="content-text12">01분 경과</p>
+                </div>
+              </div>
+            </div>
+
           </div>
 
           <div id="online" class="tabcontent">

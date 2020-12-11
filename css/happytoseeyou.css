@@ -92,8 +92,8 @@ body {
 }
 
 .LOGOBlack {
-  width: 130px;
-  height: 19px;
+  /* width: 130px; */
+  /* height: 19px; */
   object-fit: contain;
 }
 
@@ -105,8 +105,14 @@ body {
   object-fit: contain;
 }
 
-.nav-link {
+.nav-text {
   font-family: NanumSquareB;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.58px;
   color: #000000;
 }
 
@@ -127,8 +133,10 @@ body {
 .btn-hts {
   width: 70px;
   height: 30px;
+  margin-left: -72px;
   /* padding: 8px 23.5px 9px 24.5px; */
   border-radius: 2px;
+  border-color: #e4a8b0;
   background-color: #e4a8b0;
 }
 
@@ -141,7 +149,7 @@ body {
 .card-title-0 {
   margin-top: 16px;
   margin-left: 10px;
-  font-family: NanumSquareEB;
+  font-family: 'NanumSquareB', sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -154,7 +162,7 @@ body {
 .teacher-title {
   margin-top: 16px;
   text-align: center;
-  font-family: NanumSquareEB;
+  font-family: 'NanumSquareB', sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -165,7 +173,7 @@ body {
 }
 
 .teacher-text-extra {
-  font-family: NanumSquareR;
+  font-family: 'NanumSquareB', sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -173,6 +181,7 @@ body {
   line-height: normal;
   letter-spacing: -0.23px;
 }
+
 .hr-live {
   width: 93%;
   margin: 8px 0 0;
@@ -190,7 +199,7 @@ body {
 }
 
 .chat {
-  width:100%;
+  width: 100%;
   height: 700px;
 }
 
@@ -310,15 +319,15 @@ body {
 }
 
 .footer-agree {
- margin: 19px 206px 50px 0;
- font-family: NanumGothic;
- font-size: 12px;
- font-weight: bold;
- font-stretch: normal;
- font-style: normal;
- line-height: normal;
- letter-spacing: normal;
- color: #959595;
+  margin: 19px 206px 50px 0;
+  font-family: NanumGothic;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #959595;
 }
 
 .img-footer {
@@ -334,6 +343,7 @@ body {
 }
 
 .tab-contents {
+  width: 100%;
   overflow: hidden;
   border: 0px;
   background-color: #ffffff;
@@ -345,7 +355,7 @@ body {
 /* Style the buttons inside the tab */
 .tab-contents button {
   background-color: inherit;
-  margin-bottom: 1px;
+  margin-bottom: 0px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -354,6 +364,111 @@ body {
   font-size: 17px;
 }
 
+.tablinks {
+  width: 32%;
+}
+
+.tablinks {
+  width: 32%;
+  font-size: 13px;
+}
+
+.live-round {
+  width: 80px;
+  height: 80px;
+  margin: 0 30px 10px 0;
+  padding-left: 16px;
+  padding-right: 17px;
+  border-radius: 40px;
+  border: solid 2px #e4a8b0;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.25px;
+  text-align: center;
+  color: #e4a8b0;
+}
+
+.content-title {
+  width: 271px;
+  height: 20px;
+  margin: 6px 98px 6px 30px;
+  font-family: NanumSquareEB;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.26px;
+  color: #332a2f;
+}
+.content-text11 {
+  margin-left: -178px;
+  font-family: NanumSquareB;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: -0.6px;
+  color: #332a2f;
+}
+
+.content-text13 {
+  margin-left: -103px;
+  font-family: NanumSquareB;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: -0.6px;
+  color: #332a2f;
+}
+
+.content-text12 {
+  margin-left: -3px;
+  margin-top: -20px;
+  font-family: NanumSquareR;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: -0.51px;
+  color: #332a2f;
+}
+
+.btn-class {
+  width: 200px;
+  height: 44px;
+  margin: 5px 1px 12px 98px;
+  padding: 12px 16px;
+  border-radius: 6px;
+  border: solid 1px #e09aa4;
+  background-color: #e4a8b0;
+  font-family: NanumSquareOTFEB;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: -0.56px;
+  color: #ffffff;
+}
+
+.btn-text {
+  font-family: NanumSquareOTFEB;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: -0.56px;
+  color: #ffffff;
+}
 /* Change background color of buttons on hover */
 .tab-contents button:hover {
   color: #e4a8b0;
