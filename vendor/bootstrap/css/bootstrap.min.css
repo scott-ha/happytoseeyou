@@ -8544,6 +8544,10 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   padding-top: 4rem !important
 }
 
+.pt-7, .py-7{
+  padding-top: 4.5rem !important
+}
+
 .pr-5, .px-5 {
   padding-right: 3rem !important
 }
