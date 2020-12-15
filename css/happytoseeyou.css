@@ -316,7 +316,7 @@
 .teacher-text-extra {
   margin-top: 2px;
   font-family: NanumSquareR;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -344,6 +344,7 @@
   width: 380px;
   border-bottom: solid 1px #e0e1e7;
 }
+
 
 .hr-live-1 {
   width: 104%;
@@ -486,7 +487,7 @@
   position: absolute;
   margin-top: 13px;
   margin-left: 310px;
-  font-size: 25px;
+  font-size: 22px;
   text-align: right;
   color: #ffffff;
 }
