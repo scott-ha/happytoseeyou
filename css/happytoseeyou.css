@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 /* @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css); */
-
 .carousel-item {
   min-height: 300px;
   width: 100%;
@@ -80,6 +79,7 @@
   text-align: right;
   color: #ffffff;
 }
+
 .slide-left {
   position: absolute;
   z-index: 5;
@@ -116,6 +116,7 @@
   /* padding: 12px; */
   object-fit: contain;
 }
+
 .title-text-2 {
   font-size: 24px;
   margin-right: 5px;
@@ -289,9 +290,20 @@
 
 .teacher-text-extra {
   margin-top: 2px;
+  font-family: NanumSquareR;
   font-size: 14px;
-  font-weight: 100;
   font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.23px;
+}
+
+.teacher-text-class {
+  margin-top: 2px;
+  font-family: NanumSquareR;
+  font-size: 14px;
+  font-weight: 200;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -311,10 +323,12 @@
 
 .img-live {
   object-fit: contain;
-  width: 100%;
-  height: 620px;
+  width: 858px;
+  height: 479px;
 }
-.img-live {
+
+.img-live2 {
+  width:380px;
   height: 620px;
 }
 
@@ -331,17 +345,26 @@
   height: 700px;
 }
 
-#circle1 {
-background-color:#86efef;
-width:150px;
-height:150px;
-border-radius:75px;
-text-align:center;
-margin:0 auto;
-font-size:12px;
-vertical-align:middle;
-line-height:150px;
+.chat-div {
+  width: 380px;
+  height: 620px;
+  margin: 0 0 1px;
+  padding: 0 0 150px;
+  border: solid 1px #e0e1e7;
 }
+
+#circle1 {
+  background-color: #86efef;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+  vertical-align: middle;
+  line-height: 150px;
+}
+
 #round_hts {
   width: 5px;
   height: 5px;
@@ -405,6 +428,7 @@ line-height:150px;
   border-radius: 4px;
   border: solid 1px #e4a8b0;
   color: #e4a8b0;
+  padding-bottom: 3px;
   text-align: center;
 }
 
