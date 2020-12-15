@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <filter id="oqh24mmuia" width="135.4%" height="135.4%" x="-17.7%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+        </filter>
+        <circle id="f85y1gqrob" cx="24" cy="24" r="24"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-1439 -1326) translate(434 1166) translate(1005 160)">
+                        <use fill="#000" filter="url(#oqh24mmuia)" xlink:href="#f85y1gqrob"/>
+                        <use fill="#FFF" xlink:href="#f85y1gqrob"/>
+                    </g>
+                    <g stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.65">
+                        <path d="M18 14.5L13 9.5 8 14.5" transform="translate(-1439 -1326) translate(434 1166) translate(1005 160) translate(12 12) matrix(0 -1 -1 0 25 25)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
