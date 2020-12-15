@@ -304,6 +304,7 @@
 
 .img-thum {
   width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
@@ -490,8 +491,8 @@ line-height:150px;
 }
 
 .img-mask {
-  top: 1000px;
-  left: 1655px;
+  top: 1600px;
+  left: 900px;
   position: fixed;
 }
 
