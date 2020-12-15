@@ -6,7 +6,6 @@
 /* @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css); */
 
 .carousel-item {
-  height: 450px;
   min-height: 300px;
   width: 100% background: no-repeat center center scroll;
   -webkit-background-size: cover;
