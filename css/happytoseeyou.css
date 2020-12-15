@@ -220,7 +220,7 @@
 .btn-hts {
   width: 70px;
   height: 30px;
-  margin-left: -72px;
+  margin-left: -85px;
   font-size: 12px;
   /* padding: 8px 23.5px 9px 24.5px; */
   border-radius: 2px;
@@ -311,7 +311,12 @@
 }
 
 .hr-live {
-  width: 93%;
+  width: 90%;
+  margin: 8px 0 0;
+}
+
+.hr-live-1 {
+  width: 100%;
   margin: 8px 0 0;
 }
 
@@ -323,7 +328,7 @@
 
 .img-live {
   object-fit: contain;
-  width: 858px;
+  width: 750px;
   height: 479px;
 }
 
@@ -345,12 +350,9 @@
   height: 700px;
 }
 
-.chat-div {
-  width: 380px;
-  height: 620px;
-  margin: 0 0 1px;
-  padding: 0 0 150px;
-  border: solid 1px #e0e1e7;
+.card-chat {
+  margin-top: 30px;
+  height: 530px;
 }
 
 #circle1 {
