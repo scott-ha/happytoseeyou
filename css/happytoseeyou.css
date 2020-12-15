@@ -3,7 +3,7 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+/* @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css); */
 
 body {
   padding-top: 56px;
@@ -144,13 +144,42 @@ body {
   background-image: linear-gradient(to right, #ffedf2 26%, #fac9d6 115%);
 }
 
+/* .btn-hts {
+  width: 70px;
+  height: 30px;
+  margin-left: -72px;
+  padding: 8px 23.5px 9px 24.5px;
+  border-radius: 2px;
+  border-color: #e4a8b0;
+  background-color: #e4a8b0;
+} */
+
+/* .btn-hts {
+  width: 70px;
+  height: 30px;
+  margin-left: -72px;
+  padding: 12px 16px;
+  border-radius: 6px;
+  border: solid 1px #e09aa4;
+  background-color: #e4a8b0;
+  font-family: NanumSquareOTFEB;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: -0.56px;
+  color: #ffffff;
+} */
+
 .btn-hts {
   width: 70px;
   height: 30px;
   margin-left: -72px;
+  font-size:12px;
   /* padding: 8px 23.5px 9px 24.5px; */
   border-radius: 2px;
-  border-color: #e4a8b0;
+  border: solid 1px #e09aa4;
   background-color: #e4a8b0;
 }
 
@@ -176,7 +205,7 @@ body {
 .teacher-title {
   margin-top: 16px;
   text-align: center;
-  font-family: 'NanumSquareB', sans-serif;
+  font-family: NanumSquare, sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -187,8 +216,8 @@ body {
 }
 
 .teacher-text-extra {
-  font-family: 'NanumSquareB', sans-serif;
   font-size: 14px;
+  font-weight: 100;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;

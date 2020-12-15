@@ -3224,8 +3224,14 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
   white-space: nowrap
 }
 
+.ic-nav {
+  width: 20px;
+  height: 20px;
+  margin: 15px 0 0 7px;
+  object-fit: contain;
+}
+
 .dropdown-toggle::after {
-  img
   display: inline-block;
   margin-left: .255em;
   vertical-align: .255em;
@@ -8387,7 +8393,6 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
   margin-top: 3.75rem !important
 }
 
-
 .mr-4, .mx-4 {
   margin-right: 1.5rem !important
 }
@@ -8399,7 +8404,6 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 .ml-4, .mx-4 {
   margin-left: 1.5rem !important
 }
-
 
 .m-5 {
   margin: 3rem !important
