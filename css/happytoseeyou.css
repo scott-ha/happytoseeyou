@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 /* @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css); */
-
 body {
   padding-top: 56px;
 }
@@ -66,6 +65,14 @@ body {
   line-height: normal;
   letter-spacing: 0px;
   color: #ef6882;
+}
+
+.ic_play {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 53px;
+  padding: 1px;
+  object-fit: contain;
 }
 
 .title-text-2 {
@@ -153,7 +160,6 @@ body {
   border-color: #e4a8b0;
   background-color: #e4a8b0;
 } */
-
 /* .btn-hts {
   width: 70px;
   height: 30px;
@@ -171,12 +177,11 @@ body {
   letter-spacing: -0.56px;
   color: #ffffff;
 } */
-
 .btn-hts {
   width: 70px;
   height: 30px;
   margin-left: -72px;
-  font-size:12px;
+  font-size: 12px;
   /* padding: 8px 23.5px 9px 24.5px; */
   border-radius: 2px;
   border: solid 1px #e09aa4;
@@ -192,6 +197,19 @@ body {
 .card-title-0 {
   margin-top: 16px;
   margin-left: 10px;
+  font-family: 'NanumSquareB', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.27px;
+  color: #332a2f
+}
+
+.card-title-1 {
+  margin-top: 16px;
+  margin-left: 15px;
   font-family: 'NanumSquareB', sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -241,9 +259,25 @@ body {
   height: 620px;
 }
 
+.ic-nav {
+  width: 20px;
+  height: 20px;
+  margin: 15px 30px 0 2px;
+  /* padding: 8px 5px 8px 7px; */
+  object-fit: contain;
+}
+
 .chat {
   width: 100%;
   height: 700px;
+}
+
+.round_hts {
+  width: 2px;
+  height: 2px;
+  border-radius: 1px;
+  margin: 5px 30px 0;
+  background-color: #e4a8b0;
 }
 
 .card-text-0 {
@@ -298,7 +332,7 @@ body {
   position: absolute;
   margin-top: 13px;
   margin-left: 310px;
-  font-size:25px;
+  font-size: 25px;
   text-align: right;
   color: #ffffff;
 }
@@ -449,6 +483,7 @@ body {
   letter-spacing: -0.26px;
   color: #332a2f;
 }
+
 .content-text11 {
   margin-left: -178px;
   font-family: NanumSquareB;
@@ -514,6 +549,7 @@ body {
   letter-spacing: -0.56px;
   color: #ffffff;
 }
+
 /* Change background color of buttons on hover */
 .tab-contents button:hover {
   color: #e4a8b0;

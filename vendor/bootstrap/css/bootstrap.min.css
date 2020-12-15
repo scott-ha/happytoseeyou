@@ -6464,7 +6464,7 @@ a.close.disabled {
   backface-visibility: hidden;
   transition: -webkit-transform .6s ease-in-out;
   transition: transform .6s ease-in-out;
-  transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out
+  transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
 }
 
 @media (prefers-reduced-motion:reduce) {
