@@ -328,7 +328,7 @@
   margin-top: 2px;
   font-family: NanumSquareR;
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 300;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -569,7 +569,7 @@
 }
 
 .img-mask {
-  top: 900px;
+  top: 650px;
   left: 1650px;
   position: fixed;
 }
