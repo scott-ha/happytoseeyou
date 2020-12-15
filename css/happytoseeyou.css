@@ -474,10 +474,11 @@
   height: 23px;
   margin-right: 18px;
   margin-top: -5px;
+  font-size:15px;
+  padding-bottom: 5px;
   border-radius: 4px;
   border: solid 1px #e4a8b0;
   color: #e4a8b0;
-  padding-bottom: 3px;
   text-align: center;
 }
 
