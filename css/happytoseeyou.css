@@ -5,7 +5,7 @@
  */
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 body: {
-  font-family: "NanumSquare", sans-serif;
+  font-family: 'NanumSquare', sans-serif;
 }
 .carousel-item {
   min-height: 300px;
@@ -489,8 +489,21 @@ body: {
   height: 23px;
   margin-right: 18px;
   margin-top: -5px;
-  font-size:15px;
+  font-size:14px;
   padding-bottom: 5px;
+  border-radius: 4px;
+  border: solid 1px #e4a8b0;
+  color: #e4a8b0;
+  text-align: center;
+}
+
+.span-ready-card {
+  width: 56px;
+  height: 23px;
+  margin-right: 18px;
+  margin-top: -5px;
+  font-size:14px;
+  padding-bottom: 5px 9px;
   border-radius: 4px;
   border: solid 1px #e4a8b0;
   color: #e4a8b0;
