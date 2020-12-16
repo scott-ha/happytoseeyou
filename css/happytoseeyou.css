@@ -22,9 +22,9 @@ body: {
 }
 
 .Category-text {
-  font-family: NanumSquare, sans-serif;
+  font-family: 'NanumSquare', sans-serif;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -123,7 +123,8 @@ body: {
 .title-text-2 {
   font-size: 24px;
   margin-right: 5px;
-  font-weight: normal;
+  font-family: 'NanumSquare';
+  font-weight: 700;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -133,7 +134,8 @@ body: {
 
 .title-text-2-1 {
   font-size: 24px;
-  font-weight: 700;
+  font-family: 'NanumSquare';
+  font-weight: 800;
   margin-right: 9px;
   font-weight: bold;
   font-stretch: normal;
@@ -266,9 +268,9 @@ body: {
   /* margin-top: 16px;
   margin-left: 10px; */
   padding: 15px 10px;
-  font-family: 'NanumSquareB', sans-serif;
+  font-family: 'NanumSquare', sans-serif;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 800;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -279,9 +281,9 @@ body: {
 .card-title-1 {
   margin-top: 16px;
   margin-left: 15px;
-  font-family: 'NanumSquareB', sans-serif;
+  font-family: 'NanumSquare', sans-serif;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 400;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
