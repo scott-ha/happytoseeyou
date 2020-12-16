@@ -651,7 +651,7 @@ body: {
   width: 271px;
   height: 20px;
   margin: 6px 98px 6px 30px;
-  font-family: NanumSquareEB;
+  font-family: 'NanumSquare';
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -663,9 +663,9 @@ body: {
 
 .content-text11 {
   margin-left: -178px;
-  font-family: NanumSquareB;
+  font-family: 'NanumSquare';
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.07;
@@ -675,9 +675,9 @@ body: {
 
 .content-text13 {
   margin-left: -103px;
-  font-family: NanumSquareB;
+  font-family: 'NanumSquare';
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.07;
