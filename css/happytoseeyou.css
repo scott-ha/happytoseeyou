@@ -308,9 +308,8 @@ body: {
   margin-top: 16px;
   margin-bottom: -1px;
   text-align: center;
-  font-family: NanumSquare, sans-serif;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -331,9 +330,8 @@ body: {
 
 .teacher-text-extra-score {
   margin-top: 2px;
-  font-family: NanumSquareR;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -342,9 +340,8 @@ body: {
 
 .teacher-text-class {
   margin-top: 2px;
-  font-family: NanumSquareR;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -453,9 +450,8 @@ body: {
   margin-top: -10px;
   margin-left: 10px;
   opacity: 0.8;
-  font-family: NanumSquareR;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -492,7 +488,7 @@ body: {
   margin-right: 18px;
   margin-top: -5px;
   font-size:14px;
-  padding-bottom: 5px;
+  padding: 1px 9px;
   border-radius: 4px;
   border: solid 1px #e4a8b0;
   color: #e4a8b0;
@@ -504,8 +500,9 @@ body: {
   height: 23px;
   margin-right: 18px;
   margin-top: -5px;
-  font-size:14px;
-  padding-bottom: 5px 9px;
+  font-size:12px;
+  font-weight: 400;
+  padding: 2px 9px;
   border-radius: 4px;
   border: solid 1px #e4a8b0;
   color: #e4a8b0;
