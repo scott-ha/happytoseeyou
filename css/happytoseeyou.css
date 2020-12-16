@@ -324,6 +324,17 @@
   letter-spacing: -0.23px;
 }
 
+.teacher-text-extra-score {
+  margin-top: 2px;
+  font-family: NanumSquareR;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.23px;
+}
+
 .teacher-text-class {
   margin-top: 2px;
   font-family: NanumSquareR;
@@ -570,6 +581,8 @@
 }
 
 .img-mask {
+  width: 100px;
+  height: 100px;
   top: 650px;
   left: 1650px;
   position: fixed;
