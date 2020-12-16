@@ -3,7 +3,10 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-/* @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css); */
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+body: {
+  font-family: "NanumSquare", sans-serif;
+}
 .carousel-item {
   min-height: 300px;
   width: 100%;
@@ -19,7 +22,7 @@
 }
 
 .Category-text {
-  font-family: 'NanumSquareB', sans-serif;
+  font-family: NanumSquare, sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
